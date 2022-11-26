@@ -1,2 +1,1 @@
- index.html
----
+ERROR APP SHOW ONLY WHITE SITE
