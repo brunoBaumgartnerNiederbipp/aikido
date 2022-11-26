@@ -28,25 +28,25 @@ function App() {
   return (
    <Router>
      <Routes>
-      <Route exact path="/aikido/" element={<Home/>} />
-      <Route exact path="/aikido/about" element={<About/>} />
-      <Route exact path="/aikido/auswahl" element={<Auswahl/>} />
-      <Route exact path='/aikido/kyu' element={<Kyu/>} />
-      <Route exact path='/aikido/dan' element={<Dan/>} />
-      <Route exact path='/aikido/kyu6' element={<Kyu6/>} />
-      <Route exact path='/aikido/kyu5' element={<Kyu5/>} />
-      <Route exact path='/aikido/kyu4' element={<Kyu4/>} />
-      <Route exact path='/aikido/kyu3' element={<Kyu3/>} />
-      <Route exact path='/aikido/kyu2' element={<Kyu2/>} />
-      <Route exact path='/aikido/kyu1' element={<Kyu1/>} />
-      <Route exact path='/aikido/dan4' element={<Dan4/>} />
-      <Route exact path='/aikido/dan3' element={<Dan3/>} />
-      <Route exact path='/aikido/dan2' element={<Dan2/>} />
-      <Route exact path='/aikido/dan1' element={<Dan1/>} />
-      <Route exact path='/aikido/philosophie' element={<Phil/>} />
-      <Route exact path='/aikido/geschichte' element={<Geschichte/>} />
-      <Route exact path='/aikido/impressum' element={<Impressum/>} />
-      <Route exact path='/aikido/hakama' element={<Hakama/>} />
+      <Route exact path="/aikido" element={<Home/>} />
+      <Route exact path="/about" element={<About/>} />
+      <Route exact path="/auswahl" element={<Auswahl/>} />
+      <Route exact path='/kyu' element={<Kyu/>} />
+      <Route exact path='/dan' element={<Dan/>} />
+      <Route exact path='/kyu6' element={<Kyu6/>} />
+      <Route exact path='/kyu5' element={<Kyu5/>} />
+      <Route exact path='/kyu4' element={<Kyu4/>} />
+      <Route exact path='/kyu3' element={<Kyu3/>} />
+      <Route exact path='/kyu2' element={<Kyu2/>} />
+      <Route exact path='/kyu1' element={<Kyu1/>} />
+      <Route exact path='/dan4' element={<Dan4/>} />
+      <Route exact path='/dan3' element={<Dan3/>} />
+      <Route exact path='/dan2' element={<Dan2/>} />
+      <Route exact path='/dan1' element={<Dan1/>} />
+      <Route exact path='/philosophie' element={<Phil/>} />
+      <Route exact path='/geschichte' element={<Geschichte/>} />
+      <Route exact path='/impressum' element={<Impressum/>} />
+      <Route exact path='/hakama' element={<Hakama/>} />
       </Routes>
     </Router>
   );
