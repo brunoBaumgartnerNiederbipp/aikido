@@ -1,1 +1,3 @@
-ERROR APP SHOW ONLY WHITE SITE
+---
+permalink: index.html
+---
