@@ -1,0 +1,131 @@
+.auswahl{
+    position: absolute;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.block{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.532);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.kurs{
+    position: relative;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.auswahlKyu, .auswahlDan{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0px;
+    margin: 0px auto;
+    top: 0;
+    width: 140px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+}
+
+.auswahlBackground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.auswahlKurs{
+   margin-top: 10%;
+}
+
+.schühlerKurs, .lehrerKurs{
+   margin-top: 20px;
+}
+
+.flex{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+
+    
+.flex{
+    display: flex;
+}
+
+    .auswahl{
+        display: flex;
+    }
+    .auswahlBackground{display: none;}
+    
+}
+
+.auswahlBackground1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
