@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/aikido/static/css/main.fb1e49c4.css",
+    "main.js": "/aikido/static/js/main.5180f370.js",
+    "static/js/787.60ec3f20.chunk.js": "/aikido/static/js/787.60ec3f20.chunk.js",
+    "static/media/logo.svg": "/aikido/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/aikido/index.html",
+    "main.fb1e49c4.css.map": "/aikido/static/css/main.fb1e49c4.css.map",
+    "main.5180f370.js.map": "/aikido/static/js/main.5180f370.js.map",
+    "787.60ec3f20.chunk.js.map": "/aikido/static/js/787.60ec3f20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb1e49c4.css",
+    "static/js/main.5180f370.js"
+  ]
+}
