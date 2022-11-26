@@ -28,7 +28,7 @@ function App() {
   return (
    <Router>
      <Routes>
-      <Route exact path="/aikido" element={<Home/>} />
+      <Route exact path="/" element={<Home/>} />
       <Route exact path="/about" element={<About/>} />
       <Route exact path="/auswahl" element={<Auswahl/>} />
       <Route exact path='/kyu' element={<Kyu/>} />
